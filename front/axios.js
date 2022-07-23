@@ -14,7 +14,7 @@ async function dummy() {
     let num = 0;
     for (let i = 0; i < resData.length; i++) {
       num++;
-      console.log(num, resData[i]);
+      // console.log(num, resData[i]);
     }
   } catch (err) {
     console.error(err);

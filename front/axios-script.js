@@ -73,7 +73,7 @@ const getCoordsByAddress = (address) => {
 */
 
 const getContent = (data) => {
-  console.log(data);
+  // console.log(data);
   // 유튜브 썸네일 id 가져오기
   let replaceUrl = data.videoUrl;
   let finUrl = "";
